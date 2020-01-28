@@ -1,0 +1,75 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOG DISCARDABLE  0, 0, 370, 234
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Check POP Mail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "POP Server Name",IDC_STATIC,6,8,60,8
+    EDITTEXT        IDC_SERVERNAME,6,18,113,13,ES_AUTOHSCROLL
+    LTEXT           "User ID",IDC_STATIC,6,39,26,8
+    EDITTEXT        IDC_USERID,6,49,113,13,ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC,6,71,32,8
+    EDITTEXT        IDC_PASSWORD,6,81,113,13,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Check &Mail...",ID_CHECKMAIL,37,111,50,14
+    PUSHBUTTON      "&Close",IDCANCEL,37,127,50,14
+    EDITTEXT        IDC_EDIT1,135,8,222,216,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+END
+
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
