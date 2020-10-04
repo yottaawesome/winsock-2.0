@@ -19,6 +19,7 @@
 #include <io.h>
 #include <winsock.h>
 
+#pragma comment(lib, "wsock32.lib")
 
 void GetHTTP(LPCSTR lpServerName, LPCSTR lpFileName);
 
