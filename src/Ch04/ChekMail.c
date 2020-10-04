@@ -14,6 +14,8 @@
 #include "chekmail.h"
 #include "resource.h"
 
+#pragma comment(lib, "wsock32.lib")
+
 // ----- Global Variables       
 // POP3 Host Name
 char		gszServerName[255];
