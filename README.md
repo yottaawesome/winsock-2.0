@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an unofficial source code repo for Lewis Napper's [WinSock 2.0](https://dl.acm.org/doi/book/10.5555/522582) (1997) book. The source code is reproduced here for reference (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
+This is an unofficial source code repo for Lewis Napper's [WinSock 2.0 (1997)](https://dl.acm.org/doi/book/10.5555/522582) book. The source code is reproduced here for reference (so you don't need to dig up the physical media of the book) and remains the copyright of the book authors.
 
 ## Using this repository
 
@@ -19,8 +19,17 @@ The conversion effort is ongoing and will take some time. Items listed below are
 * **Chap02**
   * [Datagram client and server](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/DataGram)
   * [GetHTTP](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/GetHTTP)
+  * [HostInfo](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/HostInfo)
+  * [WsVer](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/wsver)
+  * [Stream client and server](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/Stream)
 * **Chap04**
   * [Chekmail](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch04)
+* **Chap05**
+  * [Ping](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/Ping)
+  * [PingI](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/PingI)
+* **Chap09**
+  * [GetHttp2](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2)
+  * [GetHttp3](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/Gethttp3)
 
 ## Additional resources
 

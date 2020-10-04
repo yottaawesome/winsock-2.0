@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#pragma comment(lib, "wsock32.lib")
+
 typedef struct tagIPINFO
 {
 	u_char Ttl;				// Time To Live

@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <winsock.h>
 
+#pragma comment(lib, "wsock32.lib")
+
 #include "ping.h"
 
 // Internal Functions

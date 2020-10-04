@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <winsock2.h>
 
+#pragma comment(lib, "ws2_32.lib") // ws2_32 is the newer version, wsock32.lib is the obsolete version
 
 void GetHTTP(LPCSTR lpServerName, LPCSTR lpFileName);
 
@@ -43,7 +44,7 @@ typedef struct tagIOREQUEST
 }IOREQUEST, *LPIOREQUEST;
 
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	WORD wVersionRequested = WINSOCK_VERSION;
 	WSADATA wsaData;
@@ -56,7 +57,7 @@ void main(int argc, char **argv)
 	{
 		fprintf(stderr,
 			"\nSyntax: GetHTTP ServerName FullPathName\n");
-		return;
+		return 1;
 	}
 
 	//
@@ -68,7 +69,7 @@ void main(int argc, char **argv)
 		fprintf(stderr, "\nWSAStartup() error (%d)\n", 
 					nRet);
 		WSACleanup();
-		return;
+		return 1;
 	}
 
 	//
@@ -78,7 +79,7 @@ void main(int argc, char **argv)
 	{
 		fprintf(stderr,"\nWinSock version not supported\n");
 		WSACleanup();
-		return;
+		return 1;
 	}
 
 	//
@@ -94,6 +95,8 @@ void main(int argc, char **argv)
 	GetHTTP(argv[1], argv[2]);
 
 	WSACleanup();
+
+	return 0;
 }
 
 

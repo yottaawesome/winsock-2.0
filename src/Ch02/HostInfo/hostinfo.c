@@ -18,6 +18,8 @@
 #include <stdio.h>
 #include <winsock.h>
 
+#pragma comment(lib, "wsock32.lib")
+
 // Function to print a hostent structure
 int Printhostent(LPCSTR lpServerNameOrAddress);
 

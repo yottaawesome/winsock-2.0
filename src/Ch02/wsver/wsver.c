@@ -21,6 +21,8 @@
 #include <stdio.h>
 #include <winsock.h>
 
+#pragma comment(lib, "wsock32.lib")
+
 // Utility function in wsedesc.c
 LPCSTR WSErrorDescription(int iErrorCode);
 
