@@ -1,4 +1,4 @@
-# WinSock 2.0
+# WinSock 2.0 (1997) source code
 
 ## Introduction
 
@@ -14,7 +14,7 @@ I'm currently going through the code, restructuring the directories, and adding 
 
 ## Conversion status
 
-The conversion effort is ongoing and will take some time.
+The conversion effort is ongoing and will take some time. Items listed below are successfully converted samples.
 
 * **Chap02**
   * [Datagram client and server](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/DataGram)
