@@ -27,6 +27,8 @@ The conversion effort is ongoing and will take some time. Items listed below are
 * **Chap05**
   * [Ping](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/Ping)
   * [PingI](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/PingI)
+* **Chap06**
+  * [SendMail](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/SendMail)
 * **Chap09**
   * [GetHttp2](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2)
   * [GetHttp3](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/Gethttp3)
