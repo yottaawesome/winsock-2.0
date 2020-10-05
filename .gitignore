@@ -36,3 +36,4 @@ Debug/
 x64/
 *.user
 *.filters
+/src/Ch06/WSTERM/*.aps
