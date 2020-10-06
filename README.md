@@ -21,7 +21,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
     <tr>
       <th>Chapter</th>
       <th>Sample</th>
-      <th>Notes</th>
+      <th>Conversion notes</th>
     </tr>
   </thead>
   <tbody>
