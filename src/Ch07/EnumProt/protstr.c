@@ -8,7 +8,7 @@
 
 // Protocol specific annexes
 #include <wsipx.h>
-#include <ws2dnet.h>
+//#include <ws2dnet.h>
 #include <ws2atm.h>
 
 // #include <ws2rsvp.h> -- Not provided
@@ -50,8 +50,8 @@ PROTOCOLTYPES ProtocolTypes[] =
 	NSPROTO_SPX,	"NSPROTO_SPX",
 	NSPROTO_SPXII,	"NSPROTO_SPXII",
 	//DecNet - WS2DNET.H
-	DNPROTO_NSP,	"DNPROTO_NSP",		// = IPPROTO_ICMP
-	DNPROTO_RAW,	"DNPROTO_RAW",		// = IPPROTO_RAW 
+	//DNPROTO_NSP,	"DNPROTO_NSP",		// = IPPROTO_ICMP
+	//DNPROTO_RAW,	"DNPROTO_RAW",		// = IPPROTO_RAW 
 	// OSI - WS2OSI.H
 	ISOPROTO_TP_CONS,	"ISOPROTO_TP_CONS",
 	ISOPROTO_TP4_CLNS,	"ISOPROTO_TP4_CLNS",
