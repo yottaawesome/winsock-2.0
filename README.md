@@ -16,29 +16,91 @@ I'm currently going through the code, restructuring the directories, and adding 
 
 The conversion effort is ongoing and will take some time. Items listed below are successfully converted samples.
 
-* **Chap02**
-  * [Datagram client and server](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/DataGram)
-  * [GetHTTP](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/GetHTTP)
-  * [HostInfo](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/HostInfo)
-  * [WsVer](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/wsver)
-  * [Stream client and server](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/Stream)
-* **Chap04**
-  * [Chekmail](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch04)
-* **Chap05**
-  * [Ping](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/Ping)
-  * [PingI](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/PingI)
-* **Chap06**
-  * [SendMail](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/SendMail)
-  * [Wsterm](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/WSTERM)
-* **Chap07**
-  * [EnumProt](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/EnumProt)
-    * The `ws2dnet.h` header, which defines types for the now defunct [DECnet protocol suite](https://en.wikipedia.org/wiki/DECnet), is no longer part of the Windows SDK. The references to `ws2dnet.h` and its types have been commented out.
-    * After the conversion, the build process complained about a missing bitmap file `bitmap1.bmp`. I'm not sure what this file is about, and I can't find any reference to it in the repository, so I added a dummy bitmap to make the build happy.
-    * The ordering of the inclusion of `Windows.h` and `winsock2.h` was changed to prevent redefinitions.
-  * [SelProto](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/SelProto)
-* **Chap09**
-  * [GetHttp2](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2)
-  * [GetHttp3](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/Gethttp3)
+<table>
+  <thead>
+    <tr>
+      <th>Chapter</th>
+      <th>Sample</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">Chap02</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/DataGram">Datagram client and server</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/GetHTTP">GetHTTP</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/HostInfo">HostInfo</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/wsver">WsVer</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/Stream">Stream client and server</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td>Chap04</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch04">Chekmail</a></td>
+      <td>OK. Requires MFC.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chap05</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/Ping">Ping</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/PingI">PingI</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chap06</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/SendMail">SendMail</a></td>
+      <td>OK. Disabled an MFC call to address a compiler warning C4996.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/WSTERM">Wsterm</a></td>
+      <td>OK. Updated <code>WSTERM.RC2</code> resource file.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chap07</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/EnumProt">EnumProt</a></td>
+      <td>
+        <ul>
+          <li>
+            The <code>ws2dnet.h</code> header, which defines types for the now defunct <a href="https://en.wikipedia.org/wiki/DECnet">DECnet protocol suite</a>, is no longer part of the Windows SDK. The references to <code>ws2dnet.h</code> and its types have been commented out.
+          </li>
+          <li>
+            After the conversion, the build process complained about a missing bitmap file <code>bitmap1.bmp</code>. I'm not sure what this file is about, and I can't find any reference to it in the repository, so I added a dummy bitmap to make the build happy.
+          </li>
+          <li>
+            The ordering of the inclusion of <code>Windows.h</code> and <code>winsock2.h</code> was changed to prevent redefinitions.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/SelProto">SelProto</a></td>
+      <td>OK.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Chap09</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2">GetHttp2</a></td>
+      <td>OK. Changed <code>main()</code> signature.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/Gethttp3">GetHttp3</a></td>
+      <td>OK. Changed <code>main()</code> signature.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Additional resources
 
