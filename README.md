@@ -47,12 +47,12 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK.</td>
     </tr>
     <tr>
-      <td style="text-align: center">4</td>
+      <td align="center">4</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch04">Chekmail</a></td>
       <td>OK. Requires MFC.</td>
     </tr>
     <tr>
-      <td style="text-align: center" rowspan="2">5</td>
+      <td align="center" rowspan="2">5</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch05/Ping">Ping</a></td>
       <td>OK.</td>
     </tr>
@@ -61,7 +61,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK.</td>
     </tr>
     <tr>
-      <td style="text-align: center" rowspan="2">6</td>
+      <td align="center" rowspan="2">6</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/SendMail">SendMail</a></td>
       <td>OK. Disabled an MFC call to address a compiler warning C4996.</td>
     </tr>
@@ -70,7 +70,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK. Updated <code>WSTERM.RC2</code> resource file.</td>
     </tr>
     <tr>
-      <td style="text-align: center" rowspan="2">7</td>
+      <td align="center" rowspan="2">7</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/EnumProt">EnumProt</a></td>
       <td>
         <ul>
@@ -91,7 +91,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK.</td>
     </tr>
     <tr>
-      <td style="text-align: center" rowspan="2">9</td>
+      <td align="center" rowspan="2">9</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2">GetHttp2</a></td>
       <td>OK. Changed <code>main()</code> signature.</td>
     </tr>
