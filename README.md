@@ -63,7 +63,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
     <tr>
       <td align="center" rowspan="2">6</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/SendMail">SendMail</a></td>
-      <td>OK. Disabled an MFC call to address a compiler warning C4996.</td>
+      <td>OK. Disabled an MFC call to address compiler warning C4996.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch06/WSTERM">Wsterm</a></td>
