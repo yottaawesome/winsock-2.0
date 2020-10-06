@@ -26,7 +26,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center" rowspan="5">2</td>
+      <td align="center" rowspan="5">2</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch02/DataGram">Datagram client and server</a></td>
       <td>OK.</td>
     </tr>
