@@ -35,6 +35,7 @@ The conversion effort is ongoing and will take some time. Items listed below are
     * The `ws2dnet.h` header, which defines types for the now defunct [DECnet protocol suite](https://en.wikipedia.org/wiki/DECnet), is no longer part of the Windows SDK. The references to `ws2dnet.h` and its types have been commented out.
     * After the conversion, the build process complained about a missing bitmap file `bitmap.bmp`. I'm not sure what this file is about, and I can't find any reference to it in the repository, so I added a dummy bitmap to make the build happy.
     * The ordering of the inclusion of `Windows.h` and `winsock2.h` was changed to prevent redefinitions.
+  * [SelProto](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch07/SelProto)
 * **Chap09**
   * [GetHttp2](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2)
   * [GetHttp3](https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/Gethttp3)
