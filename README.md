@@ -91,6 +91,23 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK.</td>
     </tr>
     <tr>
+      <td align="center">8</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch08/Services">Services</a></td>
+      <td>
+      <ul>
+          <li>
+            The <code>ws2dnet.h</code> header, which defines types for the now defunct <a href="https://en.wikipedia.org/wiki/DECnet">DECnet protocol suite</a>, is no longer part of the Windows SDK. The references to <code>ws2dnet.h</code> and its types have been commented out.
+          </li>
+          <li>
+            Windows NT 4.0 (<code>_WIN32_WINNT 0x400</code>) is no longer supported by MFC, and so MFC would not build against this version. I've bumped the version to Windows 10.
+          </li>
+          <li>
+            Disabled an MFC call to address compiler warning C4996.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td align="center" rowspan="2">9</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch09/GETHTTP2">GetHttp2</a></td>
       <td>OK. Changed <code>main()</code> signature.</td>
