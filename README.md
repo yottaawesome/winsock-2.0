@@ -117,9 +117,14 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td>OK. Changed <code>main()</code> signature.</td>
     </tr>
     <tr>
-      <td align="center" rowspan="2">10</td>
+      <td align="center">10</td>
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch10">httpa</a></td>
       <td>OK. There's actually a bug in this sample where requesting for a file in the hosted directory causes a 404 due to an extraneous "/" being prepended to the file name -- I may eventually fix this.</td>
+    </tr>
+    <tr>
+      <td align="center">11</td>
+      <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch11">httpmt</a></td>
+      <td>OK.</td>
     </tr>
   </tbody>
 </table>
