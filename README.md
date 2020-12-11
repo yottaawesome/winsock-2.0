@@ -126,6 +126,11 @@ The conversion effort is ongoing and will take some time. Items listed below are
       <td><a href="https://github.com/yottaawesome/winsock-2.0/tree/master/src/Ch11">httpmt</a></td>
       <td>OK.</td>
     </tr>
+    <tr>
+      <td align="center">12</td>
+      <td>:construction:</td>
+      <td>In progress.</td>
+    </tr>
   </tbody>
 </table>
 
